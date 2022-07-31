@@ -1,5 +1,5 @@
 [package]
-name = "rest-api"
+name = "rust_app"
 version = "0.0.1"
 authors = ["Checkmaathy"]
 edition = "2018"
@@ -9,7 +9,7 @@ name = "lib"
 path = "src/lib.rs"
 
 [[bin]]
-name = "rest-api"
+name = "rust_app"
 path = "src/rust_application.rs"
 
 [dependencies]
