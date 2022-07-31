@@ -10,7 +10,7 @@ path = "src/lib.rs"
 
 [[bin]]
 name = "rust_app"
-path = "src/rustApplication.rs"
+path = "src/rust_application.rs"
 
 [dependencies]
 rocket = "0.4.11"
