@@ -1,7 +1,7 @@
 [package]
 name = "rest-api"
 version = "0.1.0"
-authors = ["Griffin Obeid <griffobeid@gmail.com>"]
+authors = ["Checkmaathy"]
 edition = "2018"
 
 [lib]
@@ -10,7 +10,7 @@ path = "src/lib.rs"
 
 [[bin]]
 name = "rest-api"
-path = "src/bin.rs"
+path = "src/rust_application.rs"
 
 [dependencies]
 redis = {version = "0.16.0", features = ["connection-manager"]}
